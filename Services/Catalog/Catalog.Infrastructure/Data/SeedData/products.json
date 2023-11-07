@@ -1,0 +1,322 @@
+[
+  {
+    "Id": "5f878f26c6f315c4a81f8e7b",
+    "Name": "Air Max 270",
+    "Description": "The Nike Air Max 270 is a stylish and comfortable shoe featuring the latest Air Max technology. Perfect for athletes and streetwear enthusiasts.",
+    "Price": 149.99,
+    "ImageFile": "images/products/air_max_270.jpg",
+    "Summary": "The ultimate in comfort and style.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "5f878f26c6f315c4a81f8e7b",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "654a87a1d7831453ce12c975",
+    "Name": "Tennis Racket Pro 2022",
+    "Description": "The Adidas Tennis Racket Pro 2022 is designed for professional players. It offers great control and power on the court.",
+    "Price": 199.99,
+    "ImageFile": "images/products/tennis_racket_pro_2022.jpg",
+    "Summary": "Unleash your potential with this high-performance racket.",
+    "Types": {
+      "Id": "654a8ca8abc5bfc5d15a5ce5",
+      "Name": "Rackets"
+    },
+    "Brands": {
+      "Id": "654a87a1d7831453ce12c975",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "654a87ae52175ebaca4d9fca",
+    "Name": "Soccer Ball X1000",
+    "Description": "The Puma Soccer Ball X1000 is the choice of professional soccer players. It offers exceptional durability and control on the field.",
+    "Price": 39.99,
+    "ImageFile": "images/products/soccer_ball_x1000.jpg",
+    "Summary": "Take your game to the next level with the X1000 ball.",
+    "Types": {
+      "Id": "654a8caf4eb4c9aaccbfbe7d",
+      "Name": "Football"
+    },
+    "Brands": {
+      "Id": "654a87ae52175ebaca4d9fca",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "654a87b6a50e4934670d2a5d",
+    "Name": "Sport Backpack Pro",
+    "Description": "The Reebok Sport Backpack Pro is designed for athletes on the go. It offers ample storage space and comfort for all your sports gear.",
+    "Price": 79.99,
+    "ImageFile": "images/products/sport_backpack_pro.jpg",
+    "Summary": "Stay organized and ready for action with this premium backpack.",
+    "Types": {
+      "Id": "654a8cb7801aaf9303e9da81",
+      "Name": "Kit Bags"
+    },
+    "Brands": {
+      "Id": "654a87b6a50e4934670d2a5d",
+      "Name": "Reebok"
+    }
+  },
+  {
+    "Id": "654a87bd955fa647a28d0c33",
+    "Name": "Running Shoes LightSpeed",
+    "Description": "The Fila Running Shoes LightSpeed are built for speed and comfort. Ideal for runners of all levels, from beginners to professionals.",
+    "Price": 89.99,
+    "ImageFile": "images/products/running_shoes_lightspeed.jpg",
+    "Summary": "Experience the thrill of fast-paced runs with LightSpeed.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "654a87bd955fa647a28d0c33",
+      "Name": "Fila"
+    }
+  },
+  {
+    "Id": "654a8b26d07c6c5c102ff5ce",
+    "Name": "Running Shoes Velocity",
+    "Description": "The Nike Running Shoes Velocity are designed for runners who crave speed. Lightweight and responsive, they make every run a breeze.",
+    "Price": 119.99,
+    "ImageFile": "images/products/running_shoes_velocity.jpg",
+    "Summary": "Unleash your inner sprinter with the Velocity series.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "5f878f26c6f315c4a81f8e7b",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "654a8b31b33802b6c8b0230c",
+    "Name": "Tennis Racket Elite 2023",
+    "Description": "The Adidas Tennis Racket Elite 2023 is a top-of-the-line racket for professional and advanced players. It offers superior control and power on the court.",
+    "Price": 229.99,
+    "ImageFile": "images/products/tennis_racket_elite_2023.jpg",
+    "Summary": "Reach your full potential with the Elite 2023 racket.",
+    "Types": {
+      "Id": "654a8ca8abc5bfc5d15a5ce5",
+      "Name": "Rackets"
+    },
+    "Brands": {
+      "Id": "654a87a1d7831453ce12c975",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "654a8b36c4d4e35d343658f9",
+    "Name": "Soccer Ball ProMax X5000",
+    "Description": "The Puma Soccer Ball ProMax X5000 is engineered for professional soccer players who demand precision and durability on the field.",
+    "Price": 49.99,
+    "ImageFile": "images/products/soccer_ball_promax_x5000.jpg",
+    "Summary": "Elevate your game with the ProMax X5000 ball.",
+    "Types": {
+      "Id": "654a8caf4eb4c9aaccbfbe7d",
+      "Name": "Football"
+    },
+    "Brands": {
+      "Id": "654a87ae52175ebaca4d9fca",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "654a8b3bb9e42debcd7a2a9c",
+    "Name": "Sport Backpack Pro Maxi",
+    "Description": "The Reebok Sport Backpack Pro Maxi is designed for serious athletes. It offers extra-large storage space and supreme comfort for all your sports gear.",
+    "Price": 99.99,
+    "ImageFile": "images/products/sport_backpack_pro_maxi.jpg",
+    "Summary": "Be prepared for any adventure with the Pro Maxi backpack.",
+    "Types": {
+      "Id": "654a8cb7801aaf9303e9da81",
+      "Name": "Kit Bags"
+    },
+    "Brands": {
+      "Id": "654a87b6a50e4934670d2a5d",
+      "Name": "Reebok"
+    }
+  },
+  {
+    "Id": "654a8b43ca6679649ef2b70a",
+    "Name": "Running Shoes SprintX",
+    "Description": "The Fila Running Shoes SprintX are built for sprinters looking for maximum speed. Lightweight and supportive, they help you sprint to victory.",
+    "Price": 129.99,
+    "ImageFile": "images/products/running_shoes_sprintx.jpg",
+    "Summary": "Experience lightning-fast sprints with the SprintX series.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "654a87bd955fa647a28d0c33",
+      "Name": "Fila"
+    }
+  },
+  {
+    "Id": "654a8bbbd046a3251d8720bd",
+    "Name": "Trail Running Shoes Xtreme",
+    "Description": "The Nike Trail Running Shoes Xtreme are designed for off-road enthusiasts. They provide excellent traction and support for your wildest adventures.",
+    "Price": 149.99,
+    "ImageFile": "images/products/trail_running_shoes_xtreme.jpg",
+    "Summary": "Conquer the trails with the Xtreme series.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "5f878f26c6f315c4a81f8e7b",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "654a8bc46ac4a7500615220c",
+    "Name": "Golf Club Pro Master",
+    "Description": "The Adidas Golf Club Pro Master is a high-quality golf club designed for professional and amateur golfers. It offers precision and control on the greens.",
+    "Price": 199.99,
+    "ImageFile": "images/products/golf_club_pro_master.jpg",
+    "Summary": "Improve your golf game with the Pro Master club.",
+    "Types": {
+      "Id": "654a8ca8abc5bfc5d15a5ce5",
+      "Name": "Rackets"
+    },
+    "Brands": {
+      "Id": "654a87a1d7831453ce12c975",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "654a8bccdbd82e3bc81664c4",
+    "Name": "Basketball Pro Elite",
+    "Description": "The Puma Basketball Pro Elite is designed for competitive basketball players. It offers superior grip and durability on the court.",
+    "Price": 59.99,
+    "ImageFile": "images/products/basketball_pro_elite.jpg",
+    "Summary": "Elevate your basketball skills with the Pro Elite ball.",
+    "Types": {
+      "Id": "654a8caf4eb4c9aaccbfbe7d",
+      "Name": "Football"
+    },
+    "Brands": {
+      "Id": "654a87ae52175ebaca4d9fca",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "654a8bd365964d5a650589de",
+    "Name": "Hiking Backpack Explorer",
+    "Description": "The Reebok Hiking Backpack Explorer is perfect for hikers and outdoor enthusiasts. It offers ample storage and comfort for all your adventures.",
+    "Price": 79.99,
+    "ImageFile": "images/products/hiking_backpack_explorer.jpg",
+    "Summary": "Discover new horizons with the Explorer backpack.",
+    "Types": {
+      "Id": "654a8cb7801aaf9303e9da81",
+      "Name": "Kit Bags"
+    },
+    "Brands": {
+      "Id": "654a87b6a50e4934670d2a5d",
+      "Name": "Reebok"
+    }
+  },
+  {
+    "Id": "654a8bdadf9ae5fc59ba0a0a",
+    "Name": "Volleyball Shoes Pro Jump",
+    "Description": "The Fila Volleyball Shoes Pro Jump are engineered for volleyball players looking for superior jumping and agility. They provide excellent support and traction on the court.",
+    "Price": 89.99,
+    "ImageFile": "images/products/volleyball_shoes_pro_jump.jpg",
+    "Summary": "Spike your way to victory with the Pro Jump shoes.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "654a87bd955fa647a28d0c33",
+      "Name": "Fila"
+    }
+  },
+  {
+    "Id": "5f878f26c6f315c4a81f8e7b",
+    "Name": "Performance Running Shoes",
+    "Description": "The Nike Performance Running Shoes are designed for serious runners. They provide excellent cushioning and support for long-distance runs.",
+    "Price": 139.99,
+    "ImageFile": "images/products/performance_running_shoes.jpg",
+    "Summary": "Achieve peak performance with these running shoes.",
+    "Types": {
+      "Id": "654a8ca083e76c6dbf8a71ed",
+      "Name": "Shoes"
+    },
+    "Brands": {
+      "Id": "5f878f26c6f315c4a81f8e7b",
+      "Name": "Nike"
+    }
+  },
+  {
+    "Id": "654a87a1d7831453ce12c975",
+    "Name": "Tennis Racket Champion Pro",
+    "Description": "The Adidas Tennis Racket Champion Pro is a high-performance racket for competitive players. It offers precision and power on the court.",
+    "Price": 199.99,
+    "ImageFile": "images/products/tennis_racket_champion_pro.jpg",
+    "Summary": "Dominate the tennis court with the Champion Pro racket.",
+    "Types": {
+      "Id": "654a8ca8abc5bfc5d15a5ce5",
+      "Name": "Rackets"
+    },
+    "Brands": {
+      "Id": "654a87a1d7831453ce12c975",
+      "Name": "Adidas"
+    }
+  },
+  {
+    "Id": "654a87ae52175ebaca4d9fca",
+    "Name": "Soccer Cleats Pro X900",
+    "Description": "The Puma Soccer Cleats Pro X900 are designed for elite soccer players. They provide exceptional traction and ball control on the field.",
+    "Price": 79.99,
+    "ImageFile": "images/products/soccer_cleats_pro_x900.jpg",
+    "Summary": "Enhance your soccer performance with the Pro X900 cleats.",
+    "Types": {
+      "Id": "654a8caf4eb4c9aaccbfbe7d",
+      "Name": "Football"
+    },
+    "Brands": {
+      "Id": "654a87ae52175ebaca4d9fca",
+      "Name": "Puma"
+    }
+  },
+  {
+    "Id": "654a87b6a50e4934670d2a5d",
+    "Name": "Gym Duffel Bag Pro Max",
+    "Description": "The Reebok Gym Duffel Bag Pro Max is perfect for fitness enthusiasts. It offers ample storage and durability for all your workout gear.",
+    "Price": 69.99,
+    "ImageFile": "images/products/gym_duffel_bag_pro_max.jpg",
+    "Summary": "Carry your fitness essentials in style with the Pro Max duffel bag.",
+    "Types": {
+      "Id": "654a8cb7801aaf9303e9da81",
+      "Name": "Kit Bags"
+    },
+    "Brands": {
+      "Id": "654a87b6a50e4934670d2a5d",
+      "Name": "Reebok"
+    }
+  },
+  {
+    "Id": "654a87bd955fa647a28d0c33",
+    "Name": "Basketball Pro Slam",
+    "Description": "The Fila Basketball Pro Slam is built for serious basketball players. It offers excellent grip and control on the court.",
+    "Price": 89.99,
+    "ImageFile": "images/products/basketball_pro_slam.jpg",
+    "Summary": "Dunk like a pro with the Pro Slam basketball.",
+    "Types": {
+      "Id": "654a87bd955fa647a28d0c33",
+      "Name": "Fila"
+    },
+    "Brands": {
+      "Id": "654a87bd955fa647a28d0c33",
+      "Name": "Fila"
+    }
+  }
+]
