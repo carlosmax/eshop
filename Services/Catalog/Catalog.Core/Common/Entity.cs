@@ -8,5 +8,10 @@ namespace Catalog.Core.Common
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; protected set; }
+
+        public Entity()
+        {
+            Id = ObjectId.GenerateNewId().ToString();
+        }
     }
 }

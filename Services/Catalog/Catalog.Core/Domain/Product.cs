@@ -7,7 +7,6 @@ namespace Catalog.Core.Domain
     public class Product : AggregateRoot
     {
         public Product(
-            string id, 
             string name, 
             string summary, 
             string description, 
@@ -16,7 +15,6 @@ namespace Catalog.Core.Domain
             ProductType type, 
             decimal price)
         {
-            Id = id;
             Name = name;
             Summary = summary;
             Description = description;
@@ -29,11 +27,26 @@ namespace Catalog.Core.Domain
         public string Name { get; protected set; }
         public string Summary { get; protected set; }
         public string Description { get; protected set; }
-        public string ImageFile { get; protected set; }
-        public ProductBrand Brand { get; protected set; }
-        public ProductType Type { get; protected set; }
+        public string ImageFile { get; protected set; }        
 
         [BsonRepresentation(BsonType.Decimal128)]
         public decimal Price { get; protected set; }
+        public ProductBrand Brand { get; protected set; }
+        public ProductType Type { get; protected set; }
+
+        public void Update(string name, string summary, string description, string imageFile, string brandId, string brandName, string typeId, string typeName, decimal price)
+        {            
+            Name = name;
+            Summary = summary;
+            Description = description;
+            ImageFile = imageFile;
+            Price = price;
+
+            var brand = new ProductBrand(brandId, brandName);
+            var type = new ProductType(typeId, typeName);
+
+            Brand = brand;
+            Type = type;             
+        }
     }
 }
