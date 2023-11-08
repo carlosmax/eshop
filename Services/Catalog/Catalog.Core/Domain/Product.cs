@@ -48,5 +48,13 @@ namespace Catalog.Core.Domain
             Brand = brand;
             Type = type;             
         }
+
+        public static Product Create(string name, string summary, string description, string imageFile, string brandId, string brandName, string typeId, string typeName, decimal price)
+        {
+            var brand = new ProductBrand(brandId, brandName);
+            var type = new ProductType(typeId, typeName);
+
+            return new Product(name, summary, description, imageFile, brand, type, price);
+        }
     }
 }
