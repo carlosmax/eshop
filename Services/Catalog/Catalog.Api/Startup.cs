@@ -1,7 +1,12 @@
-﻿using HealthChecks.UI.Client;
+﻿using Catalog.Application.Handlers;
+using Catalog.Core.Repositories;
+using Catalog.Infrastructure.Data;
+using Catalog.Infrastructure.Data.Repositories;
+using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 namespace Catalog.API;
 
@@ -25,6 +30,15 @@ public class Startup
 
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog.API", Version = "v1" }); });
+
+        //DI
+        services.AddAutoMapper(typeof(Startup));
+        services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(CreateProductHandler).GetTypeInfo().Assembly));
+
+        services.AddScoped<ICatalogContext, CatalogContext>();  
+        services.AddScoped<IProductRepository, ProductRepository>();  
+        services.AddScoped<IBrandRepository, ProductRepository>();  
+        services.AddScoped<ITypeRepository, ProductRepository>();  
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
