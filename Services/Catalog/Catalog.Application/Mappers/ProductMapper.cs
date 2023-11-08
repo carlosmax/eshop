@@ -9,8 +9,6 @@ namespace Catalog.Application.Mappers
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.ShouldMapProperty = p => (p?.GetMethod?.IsPublic ?? false) || (p?.GetMethod?.IsAssembly ?? false);
-                cfg.AddProfile<ProductBrandMappingProfile>();
-                cfg.AddProfile<ProductTypeMappingProfile>();
                 cfg.AddProfile<ProductMappingProfile>();
             });
 

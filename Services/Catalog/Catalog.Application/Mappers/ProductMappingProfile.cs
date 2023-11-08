@@ -8,6 +8,8 @@ namespace Catalog.Application.Mappers
     {
         public ProductMappingProfile()
         {
+            CreateMap<ProductBrand, BrandResponse>().ReverseMap();
+            CreateMap<ProductType, TypeResponse>().ReverseMap();
             CreateMap<Product, ProductResponse>().ReverseMap();
         }
     }
