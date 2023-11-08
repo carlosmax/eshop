@@ -35,7 +35,7 @@ namespace Catalog.Infrastructure.Data.Repositories
 
         public async Task<IEnumerable<Product>> GetByBrand(string brand)
         {
-            var filter = Builders<Product>.Filter.Eq(i => i.Brands.Name, brand);
+            var filter = Builders<Product>.Filter.Eq(i => i.Brand.Name, brand);
             return await _context.Products.Find(filter).ToListAsync();
         }
 
