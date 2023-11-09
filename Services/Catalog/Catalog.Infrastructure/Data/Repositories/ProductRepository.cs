@@ -6,9 +6,9 @@ namespace Catalog.Infrastructure.Data.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly CatalogContext _context;
+        private readonly ICatalogContext _context;
 
-        public ProductRepository(CatalogContext context)
+        public ProductRepository(ICatalogContext context)
         {
             _context = context;
         }
